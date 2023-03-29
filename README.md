@@ -1,2 +1,2 @@
 # build_ting
-Repo for hellow world building project
+Repo for hello world building project
