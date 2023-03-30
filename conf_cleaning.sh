@@ -10,8 +10,6 @@ PORTS_VAR2="ting\/kaspersky"
 
 PORTS_VAR3="emulators\/linux-c7"
 
-PORTS_VAR4="ting\/programCrypto"
-
 sleep 3
 
 sed -i '' "/^$PLUGINS_VAR1/d" /usr/tools/config/23.1/plugins.conf
@@ -31,7 +29,3 @@ sed -i '' "/^$PORTS_VAR2/d" /usr/tools/config/23.1/ports.conf
 sleep 3
 
 sed -i '' "/^$PORTS_VAR3/d" /usr/tools/config/23.1/ports.conf
-
-sleep 3
-
-sed -i '' "/^$PORTS_VAR4/d" /usr/tools/config/23.1/ports.conf
